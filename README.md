@@ -39,6 +39,10 @@ This app was developed with Raw PHP applying OOP priciples with the use of Doctr
 
 more TBA
 
+## Development log.
+* 2022.06.25 - Start of development.  <b>ETA - 2022.07.04 </b>
+
+
 
 ## Contact
 
