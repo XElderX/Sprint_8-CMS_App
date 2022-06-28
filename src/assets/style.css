@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(178,190,181,0.8)
+}
+.navContainer{
+    display: flex;
+    padding: 1rem;
+}
+.navTab{
+    padding: 1rem
+}

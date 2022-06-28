@@ -39,8 +39,15 @@ This app was developed with Raw PHP applying OOP priciples with the use of Doctr
 
 more TBA
 
-## Development log.
-* 2022.06.25 - Start of development.  <b>ETA - 2022.07.04 </b>
+## Development log and workflow.
+<h5>***************2022.06.25***************</h5>
+* 2022.06.25 - <b>Start of development.</b> estimated to finish <b>ETA - 2022.07.04 </b>
+* 2022.06.25 -> Settin up the project: Installed composer  -> installed doctrine/orm -> Created <code>bootstrap.php</code> and <code>cli-config.php</code> and configurated its perameters. Created Database : <code> CMD_DB</code>;
+* 2022.06.25 additionally installed 2 more libraries: <code>php ../composer.phar require symfony/cache</code> and <code>php ../composer.phar require doctrine/annotations</code> 
+* 2022.06.27 Created AppTab class - it renders object title and content from db.. created header.php file which contains navigation, sat up routing  and renders content from db. 
+
+
+
 
 
 

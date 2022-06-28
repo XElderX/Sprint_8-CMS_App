@@ -1,0 +1,22 @@
+{
+    "name": "dalius/sprint_8-cms_app",
+    "description": "This project was made in learning purpoises as Sprint number 8 assignment creating CMS app",
+    "type": "project",
+    "license": "free license",
+    "autoload": {
+        "psr-4": {
+            "Models\\": "src/models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "XElderX",
+            "email": "dalius.badley@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.12",
+        "symfony/cache": "^6.1",
+        "doctrine/annotations": "^1.13"
+    }
+}
