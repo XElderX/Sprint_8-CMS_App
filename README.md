@@ -41,10 +41,18 @@ more TBA
 
 ## Development log and workflow.
 <h5>***************2022.06.25***************</h5>
-* 2022.06.25 - <b>Start of development.</b> estimated to finish <b>ETA - 2022.07.04 </b>
-* 2022.06.25 -> Settin up the project: Installed composer  -> installed doctrine/orm -> Created <code>bootstrap.php</code> and <code>cli-config.php</code> and configurated its perameters. Created Database : <code> CMD_DB</code>;
-* 2022.06.25 additionally installed 2 more libraries: <code>php ../composer.phar require symfony/cache</code> and <code>php ../composer.phar require doctrine/annotations</code> 
-* 2022.06.27 Created AppTab class - it renders object title and content from db.. created header.php file which contains navigation, sat up routing  and renders content from db. 
+* 2022.06.25 - <b>Start of development.</b> estimated to finish <b>ETA - 2022.07.04 </b><br>
+* 2022.06.25 -> Settin up the project: Installed composer  -> installed doctrine/orm -> Created <code>bootstrap.php</code> and <code>cli-config.php</code> and configurated its perameters. Created Database : <code> CMD_DB</code><br>;
+* 2022.06.25 additionally installed 2 more libraries: <code>php ../composer.phar require symfony/cache</code> and <code>php ../composer.phar require doctrine/annotations</code><br> 
+<h5>***************2022.06.27***************</h5>
+* 2022.06.27 Created AppTab class - it renders object title and content from db.. created header.php file which contains navigation,
+<h5>***************2022.06.29***************</h5> sat up routing  and renders content from db. <br>
+* 2022.06.29 created footer, created admin area and added functionality to add page  <br>
+<h5>***************2022.06.30***************</h5>
+* 2022.06.30 implemented delete functionality and its logic  <br>
+<h5>***************2022.07.01***************</h5>
+* 2022.07.01 implemented update existing page functionality and its logic, added login/logout logic and  <br>
+
 
 
 
