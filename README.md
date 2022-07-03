@@ -51,7 +51,9 @@ more TBA
 <h5>***************2022.06.30***************</h5>
 * 2022.06.30 implemented delete functionality and its logic  <br>
 <h5>***************2022.07.01***************</h5>
-* 2022.07.01 implemented update existing page functionality and its logic, added login/logout logic and  <br>
+* 2022.07.01 implemented update existing page functionality and its logic, added login/logout logic   <br>
+<h5>***************2022.07.02***************</h5>
+* 2022.07.02 added style for all pages, added notification messages with notes and exeptions<br>
 
 
 

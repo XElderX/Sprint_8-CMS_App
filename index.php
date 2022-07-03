@@ -1,7 +1,5 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
-
-print('from router <br>');
 switch ($url) {
     case '/Sprint_8-CMS_App/' :
         require __DIR__ . '/src/index.php';

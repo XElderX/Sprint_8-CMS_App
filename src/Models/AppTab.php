@@ -3,7 +3,7 @@ namespace Models;
 use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
- * @ORM\Table(name="products")
+ * @ORM\Table(name="pages")
  */
 class AppTab {
     /** 

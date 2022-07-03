@@ -14,7 +14,7 @@
          <?php showNav($pages, $path) ?>
  </nav>
 <section>
-     <?php $goto ?  print '<h3>' . $goto->getTitle() .  '</h3>' and print '<div class=\'content\'>' . $goto->getContent() . '</div>'
+     <?php $goto ?  print '<div class=\'subPage\'><h3>' . $goto->getTitle() .  '</h3>' . '<div class=\'content\'>' . $goto->getContent() . '</div></div>'
      : print '<p class=\'notice\'>Unfortunetly, but there is no content to show</p>';            
 ?>
 </section>
