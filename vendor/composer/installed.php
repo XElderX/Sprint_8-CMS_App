@@ -3,7 +3,7 @@
         'name' => 'dalius/sprint_8-cms_app',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ade22108d2e30fe8a3eb24a24b560666ea886cae',
+        'reference' => '395e7d9c48e58d7de1e089651a29d5a667769c2b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'dalius/sprint_8-cms_app' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ade22108d2e30fe8a3eb24a24b560666ea886cae',
+            'reference' => '395e7d9c48e58d7de1e089651a29d5a667769c2b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
