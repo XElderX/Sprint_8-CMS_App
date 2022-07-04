@@ -73,7 +73,7 @@ This app was developed with Raw PHP applying OOP priciples with the use of Doctr
 <img src="https://user-images.githubusercontent.com/99712528/177182297-44adf668-2440-46db-9ef7-e4dc5ef2beee.png" alt="Run Project">
 
 <li>Admin login credentials username:<code>Admin<code> password:<code>iamaadmin</code></li>
-<img src="https://user-images.githubusercontent.com/99712528/177182297-44adf668-2440-46db-9ef7-e4dc5ef2beee.png" alt="credentials">
+<img src="https://user-images.githubusercontent.com/99712528/177182298-d7862f4f-7a9c-4a9c-8bf8-771e78d0e376.png" alt="credentials">
 </ol>
 
 
