@@ -51,6 +51,7 @@ This app was developed with Raw PHP applying OOP priciples with the use of Doctr
 <img src="https://user-images.githubusercontent.com/99712528/177182287-08ae1aa3-36eb-4adb-820f-e6390a10a65e.png" alt="new Terminal">
 <li>On bottom terminal container enter those command lines: composer instaliation download <code>php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"</code> enter, then validate installer by typing this command <code>php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"</code> and finnaly, this line <code> php composer-setup.php</code></li>
 <img src="https://user-images.githubusercontent.com/99712528/177182300-e917e13a-08d3-4e3e-9a22-540692d16d0b.png" alt="Composer download">
+<li><b>note</b> if you downloaded composer phar in same directory as project, you simply have run installer as this <code>php composer-setup.php</code> otherwise you have navigate to correct location manually</li>
 
 <li>Composer phar instaliation<code>php ../composer.phar install</code> </li>
 <img src="https://user-images.githubusercontent.com/99712528/177182302-98219a4e-8472-4b63-90e9-a8d2c7357529.png" alt="composer install">
