@@ -1,4 +1,4 @@
-<?php use Models\appTab;
+<?php use Models\PageModel;
 include_once 'bootstrap.php';
 require_once 'functions.php';
 
@@ -18,7 +18,7 @@ if (isset($_POST['id'])){
         redirect();
 
     }
-    $page = $entityManager->find('models\appTab', $id);
+    $page = $entityManager->find('models\PageModel', $id);
     $page->setTitle($title);
     $page->setContent($content);
     $entityManager->persist($page);

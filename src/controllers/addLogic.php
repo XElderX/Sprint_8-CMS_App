@@ -1,5 +1,5 @@
 <?php
-use Models\appTab;
+use Models\PageModel;
 require_once 'functions.php';
 
 
@@ -19,7 +19,7 @@ if (isset($_POST['title'])){
     
     // var_dump($_POST['title']);
     // var_dump($_POST['content']);
-    $page = new AppTab();
+    $page = new PageModel();
     $page->setTitle($title);
     $page->setContent($content);
     $entityManager->persist($page);

@@ -4,7 +4,7 @@ include_once "bootstrap.php";
         isset($_GET['goto'])
         ? $path = ''
         : $path = 'route.php';
-        $pages = $entityManager->getRepository('Models\AppTab')->findAll(); 
+        $pages = $entityManager->getRepository('Models\PageModel')->findAll(); 
         function showNav($pages, $path){
             print("<div class='navContainer'><div class='navTab'><a href='/Sprint_8-CMS_App'>Home</a></div>");
             foreach($pages as $p):

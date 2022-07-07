@@ -3,7 +3,7 @@
 if(isset($_GET['delete'])){
   session_start();
     include '../../bootstrap.php';
-    $page = $entityManager->find('Models\AppTab', $_GET['delete']);
+    $page = $entityManager->find('Models\PageModel', $_GET['delete']);
     $entityManager->remove($page);
     $entityManager->flush();
     $_SESSION['success'] = '<p> Page has been deleted </p>';

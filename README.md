@@ -66,7 +66,7 @@ This app was developed with Raw PHP applying OOP priciples with the use of Doctr
 <li>Press <code> Create a new SQL tab</code> and create new database<code>CREATE DATABASE CMS_DB</code> and select it <code>use cms db</code></li>
 <img src="https://user-images.githubusercontent.com/99712528/177182292-d244068f-be14-4abf-8f99-f47eae814259.png" alt="DB creation">
 
-<li>Now time for database schema generation. On  powershell type: <code>vendor\bin\doctrine orm:schema-tool:update --force --dump-sql.</code> once you see green backgrounded line that :  <code>[OK] Database schema updated successfully!</code> </li>
+<li>Now time for database schema generation. On  powershell type: <code>vendor\bin\doctrine orm:schema-tool:update --force --dump-sql</code> once you see green backgrounded line that :  <code>[OK] Database schema updated successfully!</code> </li>
 <img src="https://user-images.githubusercontent.com/99712528/177182295-ba1fd227-2f11-43cf-ab99-20a3878aca7f.png" alt="db schema generation">
 
 <li>Congratulations!  project ready to run</li>

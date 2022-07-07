@@ -1,11 +1,11 @@
 <?php
 session_start();
-use Models\AppTab;
+use Models\PageModel;
 require 'views/header.php';
-require 'controller/addLogic.php';
-require 'controller/deleteLogic.php';
-require 'controller/updateLogic.php';
-require 'controller/loginLogic.php';
+require 'controllers/addLogic.php';
+require 'controllers/deleteLogic.php';
+require 'controllers/updateLogic.php';
+require 'controllers/loginLogic.php';
 (!isset($_SESSION['logged_in']))
         ? header("Location: " . '/Sprint_8-CMS_App')
         : null
@@ -13,7 +13,7 @@ require 'controller/loginLogic.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link rel="stylesheet" href="src\assets\style.css">
+        <link rel="stylesheet" href="src\style\style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.css" integrity="sha512-/68JX40JZmfjNsYvlRTDn0tFfUtRKNL8RHdOT4CSIuNDWDSpNAZ1Td+qYMiYZWGIFjLuYjuEuQfMZlNwg+wX5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <meta charset="UTF-8">
@@ -47,7 +47,7 @@ require 'controller/loginLogic.php';
 </nav>
 <section>
         <?php
-        $pages = $entityManager->getRepository('Models\AppTab')->findAll();
+        $pages = $entityManager->getRepository('Models\PageModel')->findAll();
         print("<div class='tableCointainer'>
 <div class='tableBox'>
 <table class='adminTable'>");
@@ -56,7 +56,7 @@ require 'controller/loginLogic.php';
                 print("<tr>"
                         . "<td>" . $count . "</td>"
                         . "<td>" . $p->getTitle() . "</td>"
-                        . "<td><a class='del' href=\"src/controller/deleteLogic.php?delete={$p->getId()}\"><div class='btn'><i class=\"fa-solid fa-delete-left\"> Delete</i></i></a></i></div><div class='btn'><a class = 'upd' href=\"route.php?update={$p->getId()}\"><i class=\"fa-solid fa-pen\"> Edit</i></a></div></td>"
+                        . "<td><a class='del' href=\"src/controllers/deleteLogic.php?delete={$p->getId()}\"><div class='btn'><i class=\"fa-solid fa-delete-left\"> Delete</i></i></a></i></div><div class='btn'><a class = 'upd' href=\"route.php?update={$p->getId()}\"><i class=\"fa-solid fa-pen\"> Edit</i></a></div></td>"
                         . "</tr>");
                 $count++;
         }

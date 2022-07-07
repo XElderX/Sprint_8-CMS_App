@@ -1,14 +1,14 @@
 <?php
 session_start();
-use Models\appTab;
+use Models\PageModel;
 require 'views/header.php';
 include_once "bootstrap.php";
-require 'controller/loginLogic.php';
+require 'controllers/loginLogic.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="src\assets\style.css">
+    <link rel="stylesheet" href="src\style\style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

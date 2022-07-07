@@ -5,7 +5,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity
  * @ORM\Table(name="pages")
  */
-class AppTab {
+class PageModel {
     /** 
      * @ORM\Id
      * @ORM\Column(type="integer")
